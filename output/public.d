@@ -29,3 +29,6 @@
 .\output\public.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
 .\output\public.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 .\output\public.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\output\public.o: .\APP\led.h
+.\output\public.o: .\APP\delay.h
+.\output\public.o: .\APP\buzzer.h

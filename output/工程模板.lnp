@@ -7,6 +7,9 @@
 ".\output\startup_stm32f10x_hd.o"
 ".\output\stm32f10x_gpio.o"
 ".\output\stm32f10x_rcc.o"
+".\output\led.o"
+".\output\delay.o"
+".\output\buzzer.o"
 --strict --scatter ".\output\¹¤³ÌÄ£°å.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
