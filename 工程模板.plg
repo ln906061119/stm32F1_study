@@ -1,0 +1,612 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\模板\工程模板.uvproj
+Project File Date:  06/11/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(23): error:  #256: invalid redeclaration of type name "s32" (declared at line 312 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  s32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                        ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(27): error:  #256: invalid redeclaration of type name "sc32" (declared at line 316 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  const sc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(31): error:  #256: invalid redeclaration of type name "vs32" (declared at line 320 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  vs32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(35): error:  #256: invalid redeclaration of type name "vsc32" (declared at line 324 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  const vsc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                       ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(39): error:  #256: invalid redeclaration of type name "u32" (declared at line 328 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  u32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                          ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(43): error:  #256: invalid redeclaration of type name "uc32" (declared at line 332 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  const uc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(47): error:  #256: invalid redeclaration of type name "vu32" (declared at line 336 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  vu32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                   ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(51): error:  #256: invalid redeclaration of type name "vuc32" (declared at line 340 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  const vuc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                         ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "FALSE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "TRUE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #256: invalid redeclaration of type name "bool" (declared at line 345 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                           ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "RESET" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "SET" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "FlagStatus" (declared at line 348 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                          ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "ITStatus" (declared at line 348 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                      ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "DISABLE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "ENABLE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "FunctionalState" (declared at line 350 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "ERROR" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "SUCCESS" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #256: invalid redeclaration of type name "ErrorStatus" (declared at line 353 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h(147): warning:  #47-D: incompatible redefinition of macro "HSE_Value" (declared at line 85 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:   #define HSE_Value    ((u32)8000000) /* Value of the External oscillator in Hz*/
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:           ^
+user\main.c(24): error:  #5: cannot open source input file "stm32_eval.h": No such file or directory
+user\main.c:   #include "stm32_eval.h"
+user\main.c:                          ^
+user\main.c: user\main.c: 1 warning, 22 errors
+compiling stm32f10x_it.c...
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(23): error:  #256: invalid redeclaration of type name "s32" (declared at line 312 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  s32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                        ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(27): error:  #256: invalid redeclaration of type name "sc32" (declared at line 316 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  const sc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(31): error:  #256: invalid redeclaration of type name "vs32" (declared at line 320 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  vs32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(35): error:  #256: invalid redeclaration of type name "vsc32" (declared at line 324 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  const vsc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                       ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(39): error:  #256: invalid redeclaration of type name "u32" (declared at line 328 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  u32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                          ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(43): error:  #256: invalid redeclaration of type name "uc32" (declared at line 332 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  const uc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(47): error:  #256: invalid redeclaration of type name "vu32" (declared at line 336 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  vu32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                   ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(51): error:  #256: invalid redeclaration of type name "vuc32" (declared at line 340 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  const vuc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                         ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "FALSE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "TRUE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #256: invalid redeclaration of type name "bool" (declared at line 345 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                           ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "RESET" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "SET" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "FlagStatus" (declared at line 348 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                          ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "ITStatus" (declared at line 348 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                      ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "DISABLE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "ENABLE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "FunctionalState" (declared at line 350 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "ERROR" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "SUCCESS" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #256: invalid redeclaration of type name "ErrorStatus" (declared at line 353 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h(147): warning:  #47-D: incompatible redefinition of macro "HSE_Value" (declared at line 85 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:   #define HSE_Value    ((u32)8000000) /* Value of the External oscillator in Hz*/
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:           ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h: user\stm32f10x_it.c: 1 warning, 21 errors
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+assembling startup_stm32f10x_hd.s...
+compiling stm32f10x_gpio.c...
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(23): error:  #256: invalid redeclaration of type name "s32" (declared at line 312 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  s32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                        ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(27): error:  #256: invalid redeclaration of type name "sc32" (declared at line 316 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  const sc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(31): error:  #256: invalid redeclaration of type name "vs32" (declared at line 320 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  vs32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(35): error:  #256: invalid redeclaration of type name "vsc32" (declared at line 324 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  const vsc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                       ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(39): error:  #256: invalid redeclaration of type name "u32" (declared at line 328 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  u32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                          ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(43): error:  #256: invalid redeclaration of type name "uc32" (declared at line 332 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  const uc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(47): error:  #256: invalid redeclaration of type name "vu32" (declared at line 336 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  vu32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                   ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(51): error:  #256: invalid redeclaration of type name "vuc32" (declared at line 340 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  const vuc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                         ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "FALSE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "TRUE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #256: invalid redeclaration of type name "bool" (declared at line 345 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                           ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "RESET" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "SET" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "FlagStatus" (declared at line 348 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                          ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "ITStatus" (declared at line 348 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                      ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "DISABLE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "ENABLE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "FunctionalState" (declared at line 350 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "ERROR" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "SUCCESS" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #256: invalid redeclaration of type name "ErrorStatus" (declared at line 353 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h(147): warning:  #47-D: incompatible redefinition of macro "HSE_Value" (declared at line 85 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:   #define HSE_Value    ((u32)8000000) /* Value of the External oscillator in Hz*/
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:           ^
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(559): error:  #136: struct "<unnamed>" has no field "MAPR2"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c:       tmpreg = AFIO->MAPR2;
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c:                      ^
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(593): error:  #136: struct "<unnamed>" has no field "MAPR2"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c:       AFIO->MAPR2 = tmpreg;
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c:             ^
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c: Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c: 1 warning, 23 errors
+compiling stm32f10x_rcc.c...
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(23): error:  #256: invalid redeclaration of type name "s32" (declared at line 312 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  s32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                        ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(27): error:  #256: invalid redeclaration of type name "sc32" (declared at line 316 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  const sc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(31): error:  #256: invalid redeclaration of type name "vs32" (declared at line 320 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  vs32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(35): error:  #256: invalid redeclaration of type name "vsc32" (declared at line 324 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  const vsc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                       ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(39): error:  #256: invalid redeclaration of type name "u32" (declared at line 328 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  u32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                          ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(43): error:  #256: invalid redeclaration of type name "uc32" (declared at line 332 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  const uc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(47): error:  #256: invalid redeclaration of type name "vu32" (declared at line 336 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  vu32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                   ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(51): error:  #256: invalid redeclaration of type name "vuc32" (declared at line 340 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  const vuc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                         ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "FALSE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "TRUE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #256: invalid redeclaration of type name "bool" (declared at line 345 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                           ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "RESET" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "SET" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "FlagStatus" (declared at line 348 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                          ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "ITStatus" (declared at line 348 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                      ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "DISABLE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "ENABLE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "FunctionalState" (declared at line 350 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "ERROR" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "SUCCESS" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #256: invalid redeclaration of type name "ErrorStatus" (declared at line 353 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h(147): warning:  #47-D: incompatible redefinition of macro "HSE_Value" (declared at line 85 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:   #define HSE_Value    ((u32)8000000) /* Value of the External oscillator in Hz*/
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:           ^
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(315): error:  #20: identifier "HSE_STARTUP_TIMEOUT" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     } while((StartUpCounter != HSE_STARTUP_TIMEOUT) && (HSEStatus == RESET));
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                                ^
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(926): error:  #20: identifier "HSI_VALUE" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:         RCC_Clocks->SYSCLK_Frequency = HSI_VALUE;
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                                        ^
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(929): error:  #20: identifier "HSE_VALUE" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:         RCC_Clocks->SYSCLK_Frequency = HSE_VALUE;
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                                        ^
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c: Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c: 1 warning, 24 errors
+Target not created
+Build target 'Target 1'
+compiling main.c...
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(23): error:  #256: invalid redeclaration of type name "s32" (declared at line 312 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  s32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                        ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(27): error:  #256: invalid redeclaration of type name "sc32" (declared at line 316 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  const sc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(31): error:  #256: invalid redeclaration of type name "vs32" (declared at line 320 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  vs32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(35): error:  #256: invalid redeclaration of type name "vsc32" (declared at line 324 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  const vsc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                       ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(39): error:  #256: invalid redeclaration of type name "u32" (declared at line 328 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  u32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                          ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(43): error:  #256: invalid redeclaration of type name "uc32" (declared at line 332 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  const uc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(47): error:  #256: invalid redeclaration of type name "vu32" (declared at line 336 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  vu32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                   ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(51): error:  #256: invalid redeclaration of type name "vuc32" (declared at line 340 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  const vuc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                         ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "FALSE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "TRUE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #256: invalid redeclaration of type name "bool" (declared at line 345 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                           ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "RESET" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "SET" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "FlagStatus" (declared at line 348 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                          ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "ITStatus" (declared at line 348 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                      ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "DISABLE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "ENABLE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "FunctionalState" (declared at line 350 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "ERROR" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "SUCCESS" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #256: invalid redeclaration of type name "ErrorStatus" (declared at line 353 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h(147): warning:  #47-D: incompatible redefinition of macro "HSE_Value" (declared at line 85 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:   #define HSE_Value    ((u32)8000000) /* Value of the External oscillator in Hz*/
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:           ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h: user\main.c: 1 warning, 21 errors
+compiling stm32f10x_it.c...
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(23): error:  #256: invalid redeclaration of type name "s32" (declared at line 312 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  s32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                        ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(27): error:  #256: invalid redeclaration of type name "sc32" (declared at line 316 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  const sc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(31): error:  #256: invalid redeclaration of type name "vs32" (declared at line 320 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  vs32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(35): error:  #256: invalid redeclaration of type name "vsc32" (declared at line 324 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  const vsc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                       ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(39): error:  #256: invalid redeclaration of type name "u32" (declared at line 328 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  u32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                          ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(43): error:  #256: invalid redeclaration of type name "uc32" (declared at line 332 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  const uc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(47): error:  #256: invalid redeclaration of type name "vu32" (declared at line 336 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  vu32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                   ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(51): error:  #256: invalid redeclaration of type name "vuc32" (declared at line 340 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  const vuc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                         ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "FALSE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "TRUE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #256: invalid redeclaration of type name "bool" (declared at line 345 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                           ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "RESET" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "SET" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "FlagStatus" (declared at line 348 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                          ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "ITStatus" (declared at line 348 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                      ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "DISABLE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "ENABLE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "FunctionalState" (declared at line 350 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "ERROR" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "SUCCESS" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #256: invalid redeclaration of type name "ErrorStatus" (declared at line 353 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h(147): warning:  #47-D: incompatible redefinition of macro "HSE_Value" (declared at line 85 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:   #define HSE_Value    ((u32)8000000) /* Value of the External oscillator in Hz*/
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:           ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h: user\stm32f10x_it.c: 1 warning, 21 errors
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+assembling startup_stm32f10x_hd.s...
+compiling stm32f10x_gpio.c...
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(23): error:  #256: invalid redeclaration of type name "s32" (declared at line 312 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  s32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                        ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(27): error:  #256: invalid redeclaration of type name "sc32" (declared at line 316 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  const sc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(31): error:  #256: invalid redeclaration of type name "vs32" (declared at line 320 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  vs32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(35): error:  #256: invalid redeclaration of type name "vsc32" (declared at line 324 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  const vsc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                       ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(39): error:  #256: invalid redeclaration of type name "u32" (declared at line 328 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  u32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                          ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(43): error:  #256: invalid redeclaration of type name "uc32" (declared at line 332 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  const uc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(47): error:  #256: invalid redeclaration of type name "vu32" (declared at line 336 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  vu32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                   ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(51): error:  #256: invalid redeclaration of type name "vuc32" (declared at line 340 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  const vuc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                         ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "FALSE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "TRUE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #256: invalid redeclaration of type name "bool" (declared at line 345 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                           ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "RESET" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "SET" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "FlagStatus" (declared at line 348 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                          ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "ITStatus" (declared at line 348 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                      ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "DISABLE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "ENABLE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "FunctionalState" (declared at line 350 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "ERROR" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "SUCCESS" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #256: invalid redeclaration of type name "ErrorStatus" (declared at line 353 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h(147): warning:  #47-D: incompatible redefinition of macro "HSE_Value" (declared at line 85 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:   #define HSE_Value    ((u32)8000000) /* Value of the External oscillator in Hz*/
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:           ^
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(559): error:  #136: struct "<unnamed>" has no field "MAPR2"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c:       tmpreg = AFIO->MAPR2;
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c:                      ^
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(593): error:  #136: struct "<unnamed>" has no field "MAPR2"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c:       AFIO->MAPR2 = tmpreg;
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c:             ^
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c: Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c: 1 warning, 23 errors
+compiling stm32f10x_rcc.c...
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(23): error:  #256: invalid redeclaration of type name "s32" (declared at line 312 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  s32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                        ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(27): error:  #256: invalid redeclaration of type name "sc32" (declared at line 316 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  const sc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(31): error:  #256: invalid redeclaration of type name "vs32" (declared at line 320 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  vs32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(35): error:  #256: invalid redeclaration of type name "vsc32" (declared at line 324 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  const vsc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                       ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(39): error:  #256: invalid redeclaration of type name "u32" (declared at line 328 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  u32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                          ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(43): error:  #256: invalid redeclaration of type name "uc32" (declared at line 332 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  const uc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(47): error:  #256: invalid redeclaration of type name "vu32" (declared at line 336 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  vu32;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                   ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(51): error:  #256: invalid redeclaration of type name "vuc32" (declared at line 340 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  const vuc32;  /* Read Only */
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                         ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "FALSE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "TRUE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #256: invalid redeclaration of type name "bool" (declared at line 345 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                           ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "RESET" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "SET" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "FlagStatus" (declared at line 348 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                          ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "ITStatus" (declared at line 348 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                      ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "DISABLE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "ENABLE" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "FunctionalState" (declared at line 350 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "ERROR" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "SUCCESS" has already been declared in the current scope
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #256: invalid redeclaration of type name "ErrorStatus" (declared at line 353 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                              ^
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h(147): warning:  #47-D: incompatible redefinition of macro "HSE_Value" (declared at line 85 of "J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x.h")
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:   #define HSE_Value    ((u32)8000000) /* Value of the External oscillator in Hz*/
+J:\MRYZ\KEIL-ARM\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:           ^
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(315): error:  #20: identifier "HSE_STARTUP_TIMEOUT" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     } while((StartUpCounter != HSE_STARTUP_TIMEOUT) && (HSEStatus == RESET));
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                                ^
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(926): error:  #20: identifier "HSI_VALUE" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:         RCC_Clocks->SYSCLK_Frequency = HSI_VALUE;
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                                        ^
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(929): error:  #20: identifier "HSE_VALUE" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:         RCC_Clocks->SYSCLK_Frequency = HSE_VALUE;
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                                        ^
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c: Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c: 1 warning, 24 errors
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+linking...
+Program Size: Code=848 RO-data=336 RW-data=20 ZI-data=1636  
+FromELF: creating hex file...
+".\output\工程模板.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=848 RO-data=336 RW-data=20 ZI-data=1636  
+FromELF: creating hex file...
+".\output\工程模板.axf" - 0 Error(s), 0 Warning(s).
