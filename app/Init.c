@@ -5,12 +5,11 @@ void BSP_Init(void)
 	
 	SystemInit();	// ±÷”≥ı ºªØ
 	
-	
-	Led_Configuration();
 	Beep_Configuration();
+	Led_Configuration();
 	Key_Configuration();
-	Exti_configuration();
-	USART1_Configuration();
-	Time_Configuration();
-	
+//	Exti_configuration();
+//	USART1_Configuration();
+//	Time_Configuration();
+//	PWM_Configuration();
 }

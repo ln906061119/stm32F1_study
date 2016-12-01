@@ -18,6 +18,7 @@
 #include "exti.h"
 #include "usart.h"
 #include "time.h"
+#include "pwm.h"
 
 
 #endif 

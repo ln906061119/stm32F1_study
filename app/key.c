@@ -43,7 +43,7 @@ void Key_display(void)
 	if(key_right == 0)
 	{
 		delay_ms(50);
-		LED3_TOGGLE;
+		LED_TOGGLE;
 		while(key_right == 0);
 	}
 }

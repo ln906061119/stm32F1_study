@@ -8,7 +8,6 @@ int main()
 	
 	while(1)
 	{
-
+		Key_display();
 	}
-
 }

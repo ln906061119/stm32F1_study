@@ -38,3 +38,4 @@
 .\output\led.o: .\app\exti.h
 .\output\led.o: .\app\usart.h
 .\output\led.o: .\app\time.h
+.\output\led.o: .\app\pwm.h

@@ -38,3 +38,4 @@
 .\output\key.o: .\app\exti.h
 .\output\key.o: .\app\usart.h
 .\output\key.o: .\app\time.h
+.\output\key.o: .\app\pwm.h

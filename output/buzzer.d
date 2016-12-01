@@ -38,3 +38,4 @@
 .\output\buzzer.o: .\app\exti.h
 .\output\buzzer.o: .\app\usart.h
 .\output\buzzer.o: .\app\time.h
+.\output\buzzer.o: .\app\pwm.h

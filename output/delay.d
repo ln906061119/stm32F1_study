@@ -38,3 +38,4 @@
 .\output\delay.o: .\app\exti.h
 .\output\delay.o: .\app\usart.h
 .\output\delay.o: .\app\time.h
+.\output\delay.o: .\app\pwm.h

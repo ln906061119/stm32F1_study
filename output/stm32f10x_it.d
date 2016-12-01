@@ -38,3 +38,4 @@
 .\output\stm32f10x_it.o: .\app\exti.h
 .\output\stm32f10x_it.o: .\app\usart.h
 .\output\stm32f10x_it.o: .\app\time.h
+.\output\stm32f10x_it.o: .\app\pwm.h

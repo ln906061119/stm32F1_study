@@ -18,6 +18,7 @@
 ".\output\exti.o"
 ".\output\usart.o"
 ".\output\time.o"
+".\output\pwm.o"
 --strict --scatter ".\output\¹¤³ÌÄ£°å.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
