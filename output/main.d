@@ -1,5 +1,5 @@
 .\output\main.o: user\main.c
-.\output\main.o: user\public.h
+.\output\main.o: user\main.h
 .\output\main.o: .\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
 .\output\main.o: .\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
 .\output\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -29,6 +29,12 @@
 .\output\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
 .\output\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 .\output\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
-.\output\main.o: .\APP\led.h
-.\output\main.o: .\APP\delay.h
-.\output\main.o: .\APP\buzzer.h
+.\output\main.o: user\stm32f10x_it.h
+.\output\main.o: .\app\led.h
+.\output\main.o: .\app\delay.h
+.\output\main.o: .\app\buzzer.h
+.\output\main.o: .\app\Init.h
+.\output\main.o: .\app\key.h
+.\output\main.o: .\app\exti.h
+.\output\main.o: .\app\usart.h
+.\output\main.o: .\app\time.h

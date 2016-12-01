@@ -29,3 +29,12 @@
 .\output\stm32f10x_it.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
 .\output\stm32f10x_it.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 .\output\stm32f10x_it.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\output\stm32f10x_it.o: user\main.h
+.\output\stm32f10x_it.o: .\app\led.h
+.\output\stm32f10x_it.o: .\app\delay.h
+.\output\stm32f10x_it.o: .\app\buzzer.h
+.\output\stm32f10x_it.o: .\app\Init.h
+.\output\stm32f10x_it.o: .\app\key.h
+.\output\stm32f10x_it.o: .\app\exti.h
+.\output\stm32f10x_it.o: .\app\usart.h
+.\output\stm32f10x_it.o: .\app\time.h

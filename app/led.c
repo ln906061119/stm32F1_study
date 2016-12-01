@@ -1,10 +1,4 @@
-#include "public.h"
-
-
-void Delay(u32 i)	  
-{
-	while(i--);
-}
+#include "main.h"
 
 void Led_Configuration(void)
 {
@@ -23,8 +17,8 @@ void Led_Configuration(void)
 void Led_display(void)
 {
 	GPIO_SetBits(GPIOC,LED);
-	Delay(600000);//延时约为1s
+	delay_ms(500);//延时约为1s
 	GPIO_ResetBits(GPIOC,LED);
-	Delay(6000000);
+	delay_ms(1000);
 }
 

@@ -1,7 +1,10 @@
-#ifndef _led_H
-#define _led_H
+#ifndef _DELAY_H
+#define _DELAY_H
 
-void delay_ms(unsigned int t);
+#include "stm32f10x.h"
+
+void delay_ms(u32 i);
 void delay_us(unsigned int t);
+void delay(u32 i);
 
 #endif 

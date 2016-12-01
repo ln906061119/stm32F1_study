@@ -1,12 +1,14 @@
- #include "public.h"
+ #include "main.h"
 
 int main()
 {
+	
 	BSP_Init();
+	Sound();
 	
 	while(1)
 	{
-		Led_display();
-		Sound1();
+
 	}
+
 }

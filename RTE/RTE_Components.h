@@ -3,7 +3,7 @@
  * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'LED…¡À∏' 
+ * Project: 'study' 
  * Target:  'Target 1' 
  */
 

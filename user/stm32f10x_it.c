@@ -23,7 +23,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f10x_it.h"
-
+#include "main.h"
 /** @addtogroup STM32F10x_StdPeriph_Template
   * @{
   */
@@ -108,6 +108,36 @@ void UsageFault_Handler(void)
 void SVC_Handler(void)
 {
 }
+//void EXTI2_IRQHandler(void)//外部中断2入口函数
+//{
+//	if(EXTI_GetITStatus(EXTI_Line2) == SET)
+//	{
+//		EXTI_ClearITPendingBit(EXTI_Line2);//清除线路2的外部中断挂起位
+////		LED_ON;
+//		delay_ms(10);//消抖
+//		if(GPIO_ReadInputDataBit(GPIOE,GPIO_Pin_2) == 0)
+//		{
+//			delay_ms(10);//消抖
+//			LED_TOGGLE;
+//		}
+//		while(GPIO_ReadInputDataBit(GPIOE,GPIO_Pin_2)==0);
+//	}
+//}
+
+//void USART1_IRQHandler(void)
+//{
+//	static u8 k;
+//	USART_ClearFlag(USART1,USART_FLAG_TC);
+//	if(USART_GetITStatus(USART1,USART_IT_RXNE)!=Bit_RESET)
+//	{
+//		LED_ON;
+//		k=USART_ReceiveData(USART1);
+//		k++;
+//		USART_SendData(USART1,k);
+////		USART_SendData(USART1,USART_ReceiveData(USART1));
+//		while(USART_GetFlagStatus(USART1,USART_FLAG_TXE)==Bit_RESET);
+//	}
+//}
 
 /**
   * @brief  This function handles Debug Monitor exception.

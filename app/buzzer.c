@@ -1,7 +1,7 @@
-#include "public.h"
+#include "main.h"
 
 
-void BEEP_Init()	  
+void Beep_Configuration(void)	  
 {
 	GPIO_InitTypeDef GPIO_InitStructure;	
 
@@ -14,6 +14,18 @@ void BEEP_Init()
 	GPIO_Init(GPIOB,&GPIO_InitStructure); 	 
 }
 
+void Sound(void)  
+{
+	int n;
+	u32 i=1000;
+	for(n=0;n<500;n++)			  
+	{
+		GPIO_SetBits(GPIOB,BUZ);		 
+		delay(i);
+		GPIO_ResetBits(GPIOB,BUZ);	  
+		delay(i);
+	}	
+}
 
 void Sound1(void)  
 {
@@ -21,9 +33,9 @@ void Sound1(void)
 	while(i--)			  
 	{
 		GPIO_SetBits(GPIOB,BUZ);		 
-		Delay(i);
+		delay(i);
 		GPIO_ResetBits(GPIOB,BUZ);	  
-		Delay(i--);
+		delay(i--);
 	}	
 }
 
@@ -34,8 +46,8 @@ void Sound2(void)
 	while(i--)					
 	{
 		GPIO_SetBits(GPIOB,BUZ);	  
-		Delay(i);
+		delay(i);
 		GPIO_ResetBits(GPIOB,BUZ);	
-		Delay(i--);
+		delay(i--);
 	}	
 }

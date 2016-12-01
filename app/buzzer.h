@@ -3,7 +3,8 @@
 
 #define BUZ GPIO_Pin_5	 	
 
-void BEEP_Init(void);  
+void Beep_Configuration(void);  
+void Sound(void);
 void Sound1(void);  
 void Sound2(void);  
 
